@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="30" viewBox="0 0 96 30">
+<defs><pattern id="mesh" width="6" height="6" patternUnits="userSpaceOnUse"><path d="m0 3 3-3 3 3-3 3Z" fill="none" stroke="#ddd2b9" stroke-width=".5"/></pattern></defs>
+<path d="M0 0h96v12C92 12 92 27 84 27S76 12 72 12 68 27 60 27 52 12 48 12 44 27 36 27 28 12 24 12 20 27 12 27 4 12 0 12Z" fill="#fffdf3" stroke="#cfc5aa" stroke-width=".6"/>
+<path d="M0 0h96v12C92 12 92 27 84 27S76 12 72 12 68 27 60 27 52 12 48 12 44 27 36 27 28 12 24 12 20 27 12 27 4 12 0 12Z" fill="url(#mesh)"/>
+<g fill="none" stroke="#d5c9ad" stroke-width=".65"><path d="M0 4h96M0 7h96M0 10h96"/><path d="M4 13q8 21 16 0M28 13q8 21 16 0M52 13q8 21 16 0M76 13q8 21 16 0"/></g>
+<g fill="#eee6d2" stroke="#fffdf6" stroke-width=".8"><ellipse cx="12" cy="16" rx="2" ry="4"/><ellipse cx="36" cy="16" rx="2" ry="4"/><ellipse cx="60" cy="16" rx="2" ry="4"/><ellipse cx="84" cy="16" rx="2" ry="4"/></g>
+<g fill="#fffdf6" stroke="#d5c9ad" stroke-width=".4"><circle cx="7" cy="25" r="1.4"/><circle cx="12" cy="28" r="1.4"/><circle cx="17" cy="25" r="1.4"/><circle cx="31" cy="25" r="1.4"/><circle cx="36" cy="28" r="1.4"/><circle cx="41" cy="25" r="1.4"/><circle cx="55" cy="25" r="1.4"/><circle cx="60" cy="28" r="1.4"/><circle cx="65" cy="25" r="1.4"/><circle cx="79" cy="25" r="1.4"/><circle cx="84" cy="28" r="1.4"/><circle cx="89" cy="25" r="1.4"/></g></svg>

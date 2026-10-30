@@ -1,0 +1,29 @@
+/* Only the information section beneath each collection's preview gallery. */
+.before-download{position:relative;isolation:isolate;background:transparent;margin:34px 0 24px;padding:12px clamp(8px,3vw,30px) 20px;color:#88565c;min-width:0;text-align:center;font-family:Georgia,'Times New Roman',serif}
+.before-download *{box-sizing:border-box}
+.before-download .bd-flourish{display:block;width:min(84%,570px);height:58px;margin:0 auto 12px;color:#f5abc0}
+.before-download .bd-intro{font:clamp(17px,2.3vw,23px)/1.5 Georgia,serif;color:#9c7783;margin:12px auto 25px;max-width:650px}
+.before-download .bd-heading{position:relative;padding-top:75px;margin:0 0 22px}
+.before-download .bd-ribbon{position:relative;border:1.5px solid #ffb6cc;border-radius:48% 48% 12% 12% / 30% 30% 55% 55%;background:linear-gradient(100deg,#ffe6ed90,#ffd9e8bf 50%,#ffedf3a8);box-shadow:0 6px 17px #bd829421,inset 0 0 12px #fff9;min-height:104px;display:flex;align-items:center;justify-content:center;padding:22px 28px}
+.before-download .bd-ribbon:before,.before-download .bd-terms:before,.before-download .bd-credit:before{content:'';position:absolute;inset:7px;border:1px dashed #ffb5cc;border-radius:inherit;pointer-events:none}
+.before-download h2.bd-title{font:700 clamp(27px,4.1vw,49px)/1.2 Georgia,serif;letter-spacing:0;color:#bc647e;text-shadow:0 1px 0 #fff;margin:0;position:relative;z-index:1}
+.before-download .bd-bunny{position:absolute;width:clamp(88px,16vw,145px);height:auto;top:-4px;left:8px;z-index:2;pointer-events:none}
+.before-download .bd-bunny-right{left:auto;right:8px;transform:scaleX(-1)}
+.before-download .bd-bow{width:67px;height:53px;display:block;color:#e493ae;pointer-events:none}
+.before-download .bd-heading>.bd-bow{position:absolute;top:48px;left:50%;transform:translateX(-50%);z-index:3}
+.before-download h3.bd-subtitle{display:table;position:relative;font:700 clamp(21px,2.6vw,29px)/1.3 Georgia,serif;letter-spacing:0;color:#cc7893;background:linear-gradient(90deg,#ffebf29c,#ffdce9bd,#fff2f7a8);border:1px solid #ffbace;border-radius:40px;padding:9px 26px;margin:18px auto;box-shadow:0 4px 10px #bd829418}
+.before-download .bd-subtitle:before,.before-download .bd-subtitle:after{content:'♡';font-size:21px;color:#ef9cb5;padding:0 12px}
+.before-download .bd-requirements{list-style:none;padding:0;margin:18px auto 35px;display:grid;gap:12px;max-width:700px;text-align:left}
+.before-download .bd-requirements li{position:relative;display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:16px;align-items:center;padding:14px 20px;min-height:74px;border:1px solid #f5cbd0;border-radius:20px;background:linear-gradient(105deg,#fffaf8ad,#fff1f485,#fff9f8a3);box-shadow:0 4px 13px #b88c8420,inset 0 0 0 1px #fffc;font:clamp(17px,2.3vw,25px)/1.35 Georgia,serif;color:#88565c}
+.before-download .bd-icon{width:48px;height:48px;color:#e68dab;display:block}
+.before-download .bd-face{font:16px/1.2 Georgia,serif;color:#c57b94;white-space:nowrap}
+.before-download .bd-terms{position:relative;margin:40px 0 22px;padding:38px 26px 28px 150px;border:1.5px solid #ffb6cc;border-radius:35px;background:linear-gradient(115deg,#ffe8ef70,#ffe7ef9e,#fff2f575);box-shadow:0 7px 15px #bd82941f}
+.before-download .bd-terms>.bd-bow{position:absolute;top:-28px;left:50%;transform:translateX(-50%)}
+.before-download .bd-terms>.bd-bunny{top:auto;bottom:20px;width:160px;left:4px}
+.before-download h3.bd-owner{position:relative;display:inline-block;font:700 clamp(20px,2.5vw,27px)/1.3 Georgia,serif;letter-spacing:0;color:#bd6b88;border:1px solid #fff9;border-radius:30px;background:linear-gradient(90deg,#ffdeea60,#ffcddd9c,#ffe6ef60);padding:8px 20px;margin:0 0 12px}
+.before-download .bd-terms p{font:clamp(18px,2.4vw,25px)/1.55 Georgia,serif;margin:0;color:#88565c}
+.before-download .bd-credit{position:relative;border:1px solid #ffc1d1;border-radius:40px;background:linear-gradient(100deg,#fff1f576,#ffdfeb9e,#fff4f779);box-shadow:0 4px 12px #bd82941a;margin:20px auto 0;padding:16px 20px;display:flex;align-items:center;justify-content:center;gap:14px;font:italic clamp(16px,2.2vw,22px)/1.4 Georgia,serif;color:#ca7c98}
+.before-download .bd-credit .bd-bow{width:45px;height:38px;flex-shrink:0}
+.before-download .bd-sprinkles{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden;color:#ed9bb5;font:25px Georgia,serif}
+.before-download .bd-sprinkles span{position:absolute;opacity:.75}.before-download .bd-sprinkles span:nth-child(1){top:4%;left:1%}.before-download .bd-sprinkles span:nth-child(2){top:2%;right:1%}.before-download .bd-sprinkles span:nth-child(3){top:39%;left:0}.before-download .bd-sprinkles span:nth-child(4){top:48%;right:0}.before-download .bd-sprinkles span:nth-child(5){top:68%;left:1%}.before-download .bd-sprinkles span:nth-child(6){bottom:1%;right:1%}
+@media(max-width:600px){.before-download{padding-inline:0;margin-top:25px}.before-download .bd-intro{padding-inline:12px}.before-download .bd-ribbon{padding:20px 14px;min-height:85px}.before-download .bd-heading{padding-top:65px}.before-download .bd-heading>.bd-bow{top:43px;width:53px}.before-download .bd-bunny{width:105px;top:0}.before-download .bd-requirements li{grid-template-columns:35px minmax(0,1fr);gap:12px;padding:13px 15px;min-height:70px}.before-download .bd-icon{width:34px;height:38px}.before-download .bd-face{display:none}.before-download .bd-terms{padding:40px 18px 108px;border-radius:26px}.before-download .bd-terms>.bd-bunny{width:125px;bottom:6px;left:50%;transform:translateX(-50%)}.before-download .bd-credit{padding:15px 18px;gap:8px}.before-download h3.bd-subtitle{padding:9px 12px}.before-download .bd-subtitle:before,.before-download .bd-subtitle:after{padding:0 5px}.before-download .bd-flourish{width:95%;height:45px}}

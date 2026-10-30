@@ -1,0 +1,63 @@
+
+/* Approved textile buttons, lace channel card and floral page background. */
+:root{--vintage-cocoa:#743f37;--vintage-pink:#c15179;--vintage-paper:#fffaec}
+body{background-color:#fff9ec;background-image:url('/assets/vintage-page-background.png');background-position:center top;background-size:100vw auto;background-repeat:repeat-y;background-attachment:scroll}
+.nav{overflow:visible;position:sticky}.nav:after{content:"";position:absolute;left:0;right:0;bottom:-23px;height:27px;background:url('/assets/header-lace.svg') left bottom/88px 27px repeat-x;pointer-events:none;z-index:2}.nav-inner{min-height:100px}.nav .nav-links>a,.nav .pc-menu-toggle{transition:color .15s,background .15s}.nav .nav-links>a:hover,.nav .pc-menu-toggle:hover,.nav .nav-links>a.is-active,.nav .pc-menu-toggle.is-active,.nav .pc-submenu a.is-active{color:#da4b7c!important}.nav .nav-links>a.is-active:not(.account-link){text-decoration:underline;text-decoration-color:#e9a0b7;text-decoration-thickness:2px;text-underline-offset:7px}.nav .account-link.is-active{color:#d74375!important;background:#fff0f5;border-color:#dfa0b5}.pc-submenu a.is-active{background:#fce5ed}
+main.simplified-home{padding-top:56px}.catalog-page{padding-top:44px}main:not(.simplified-home):not(.catalog-page){scroll-margin-top:140px}.home-catalog-layout{grid-template-columns:minmax(0,1fr) 335px;gap:55px}.catalog-page .content-with-sidebar{grid-template-columns:minmax(0,1fr) 335px;gap:38px}.content-with-sidebar:not(.home-catalog-layout){grid-template-columns:minmax(0,1fr) 335px}.main-column{min-width:0}.simplified-home .home-collection{border-top:0!important}.home-catalog-layout .theme-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.theme-card-body{background:#fffaf7ef}.theme-card{background:#fffdf9ed}.simplified-home .faq{background:#fffaf1ed}
+/* The image is a blank lace panel; all channel content remains real HTML. */
+.youtube-sidebar{width:100%;max-width:370px}.youtube-channel-card{position:relative;border:0;border-radius:0;overflow:visible;background:transparent url('/assets/channel-green-lace.png') center/100% 100% no-repeat;box-shadow:none;padding:45px 27px 40px;isolation:isolate;min-height:550px}.youtube-channel-card>h2{font-family:Nunito,sans-serif;color:#d84172;background:transparent;border:0;border-radius:0;font-size:10px;font-weight:900;letter-spacing:0;text-align:left;padding:10px 40px 18px 5px;min-height:49px;margin:0 0 5px;display:flex;align-items:center;line-height:1.4}.youtube-channel-card>h2:after{width:35px;height:38px;right:0;top:3px;transform:rotate(12deg)}.youtube-channel-banner{height:87px;margin:0 4px;background-size:270px auto;border-radius:4px 4px 0 0;border:1px solid #ead0d5;color:#c57492;font-size:25px;justify-content:space-around}.youtube-channel-banner .channel-pixel-bow{width:40px;height:40px;margin:0 0 10px}.youtube-channel-content{padding:0 5px 0}.youtube-channel-avatar{width:86px;height:86px;margin:-38px auto 16px}.youtube-channel-avatar:before{inset:-9px}.youtube-channel-content h3{position:relative;isolation:isolate;margin:0 0 4px;padding:12px 17px;font:700 24px/1.15 Georgia,serif;letter-spacing:-.5px;color:#713c35;background:none}.youtube-channel-content h3:before{content:"";position:absolute;inset:0;z-index:-1;background:url('/assets/vintage-pink-nameplate.png') center/100% 100% no-repeat;mix-blend-mode:multiply;pointer-events:none}.youtube-channel-content .youtube-channel-kicker{font-size:11px;color:#d04d7c;margin:5px 0 15px}.youtube-channel-content>p:not(.youtube-channel-kicker):not(.youtube-confirm-note){font-size:12px;line-height:1.8;color:#92685b;margin:10px 0 15px}.youtube-channel-content .youtube-confirm-note{font-size:8px;line-height:1.6;margin:17px 0 8px;color:#a08070}.youtube-visit{font-size:11px;margin-top:12px;color:#c03f70}
+/* Fabric art is on a separate layer so the clickable text stays crisp. */
+a.btn,button.btn,.youtube-subscribe,.account-link{position:relative;isolation:isolate}.btn,.btn.outline,.btn.primary-download,.youtube-subscribe,.nav .account-link{background:none!important;border:0!important;box-shadow:none!important;color:#743f37!important;border-radius:24px;font-weight:900}.btn:before,.youtube-subscribe:before,.nav .account-link:before{content:"";position:absolute;inset:-4px -3px;z-index:-1;background:url('/assets/pink-fabric-button.png') center/100% 135% no-repeat;pointer-events:none;filter:drop-shadow(0 1px 1px #98606b16)}.btn{padding:14px 23px;font-size:13px;min-height:46px;align-items:center;justify-content:center}.youtube-subscribe{font-size:14px;min-height:45px;padding:10px 14px;color:#773a37!important;gap:10px}.youtube-subscribe svg{color:#793d37}.youtube-subscribe svg path{fill:#f9c8d2}.btn:hover:before,.youtube-subscribe:hover:before{filter:brightness(.98) drop-shadow(0 2px 2px #98606b20)}.nav .account-link{padding:13px 20px!important;font-size:12px}.nav .account-link:before{opacity:.85;inset:-3px -2px}.nav .account-link.is-active{color:#d74375!important}.btn:focus-visible,.youtube-subscribe:focus-visible{outline:2px solid #b85b7e;outline-offset:5px}.btn:disabled{opacity:.6}
+@media(max-width:1200px){.home-catalog-layout{grid-template-columns:minmax(0,1fr) 305px;gap:30px}.catalog-page .content-with-sidebar,.content-with-sidebar:not(.home-catalog-layout){grid-template-columns:minmax(0,1fr) 305px;gap:28px}.youtube-channel-card{padding:42px 25px 35px}.home-catalog-layout .theme-grid{grid-template-columns:1fr}.youtube-channel-content h3{font-size:23px}.youtube-channel-card>h2{font-size:9px}}
+@media(max-width:900px){.home-catalog-layout,.catalog-page .content-with-sidebar,.content-with-sidebar:not(.home-catalog-layout){grid-template-columns:1fr}.youtube-sidebar{position:static;margin:0 auto;width:100%;max-width:335px}.home-catalog-layout .theme-grid,.catalog-page .theme-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.youtube-channel-card{padding:45px 27px 40px}.youtube-channel-card>h2{font-size:10px}}
+@media(max-width:640px){body{background-size:auto 1000px;background-position:center top}main.simplified-home{padding-top:41px}.catalog-page{padding-top:36px}.home-catalog-layout .theme-grid,.catalog-page .theme-grid{grid-template-columns:1fr}.nav-inner{min-height:87px}.nav:after{height:24px;bottom:-20px;background-size:78px 24px}.youtube-sidebar{max-width:335px}.btn{font-size:12px}.youtube-channel-card{min-height:550px}.home-catalog-layout{gap:30px}.main-column{min-width:0}.nav .account-link{padding:9px 17px!important}}
+@media(prefers-reduced-motion:reduce){.nav .nav-links>a,.nav .pc-menu-toggle{transition:none}}
+.youtube-channel-content h3:before{background-image:url('/assets/channel-pink-nameplate.png');background-size:100% 135%;mix-blend-mode:normal}.youtube-channel-content h3{margin-inline:6px;padding-block:11px}.nav .pc-menu-toggle[aria-expanded=true]{color:#da4b7c!important}
+@media(min-width:1001px) and (max-width:1480px){main{padding-inline:80px}.nav-inner{padding-inline:65px}.home-catalog-layout{gap:35px}.content-with-sidebar:not(.home-catalog-layout),.catalog-page .content-with-sidebar{gap:30px}}
+
+/* Match the reference portrait scale inside the lace medallion. */
+.youtube-channel-avatar img{width:82px;height:82px;object-fit:contain}.youtube-channel-card>h2{justify-content:center;text-align:center;padding-left:0;padding-right:24px}.youtube-channel-content .youtube-confirm-note{font-size:9px}
+
+/* Reuse the channel's actual green lace artwork on the requested borders. */
+.theme-card,.simplified-home .faq{position:relative;overflow:visible;border:0;border-radius:16px}
+.theme-card:after,.simplified-home .faq:after{content:"";position:absolute;inset:-10px;z-index:3;pointer-events:none;border:27px solid transparent;border-image-source:url('/assets/channel-green-lace.png');border-image-slice:140 100 150 100;border-image-repeat:round;border-image-width:27px}
+.theme-card .theme-cover{border-radius:16px 16px 0 0}.theme-card .theme-card-body{border-radius:0 0 16px 16px}.theme-card-link{border-radius:16px}.simplified-home .faq{padding:36px;margin-top:28px}.theme-card{margin:8px}.theme-card-body{padding:24px}.theme-card:focus-within{outline:2px solid #b85b7e;outline-offset:13px}
+@media(max-width:640px){.theme-card:after,.simplified-home .faq:after{inset:-7px;border-width:21px;border-image-width:21px}.theme-card{margin:5px}.simplified-home .faq{padding:27px}.theme-card-body{padding:22px}}
+
+/* Matching Instagram card directly below YouTube. */
+.youtube-sidebar{display:flex;flex-direction:column;gap:28px}.instagram-channel-card{flex-shrink:0}
+
+/* Compact, nearly square Instagram companion beneath the YouTube card. */
+.youtube-channel-card.instagram-channel-card{width:100%;min-height:0;aspect-ratio:1/1.06;padding:26px 27px 25px;display:flex;flex-direction:column;justify-content:center}
+.instagram-channel-card>h2{font-size:10px;min-height:28px;padding:0 22px 9px 0;margin:0}.instagram-channel-card>h2:after{width:25px;height:26px;top:-4px}
+.instagram-channel-card .youtube-channel-banner{height:45px;min-height:45px;margin:0 4px}.instagram-channel-card .channel-pixel-bow{width:27px;height:27px;margin:0}
+.instagram-channel-card .youtube-channel-avatar{width:60px;height:60px;margin:-25px auto 7px}.instagram-channel-card .youtube-channel-avatar img{width:58px;height:58px}.instagram-channel-card .youtube-channel-avatar:before{inset:-5px}
+.instagram-channel-card .youtube-channel-content{padding:0 5px}.instagram-channel-card .youtube-channel-content h3{font-size:20px;padding:8px 12px;margin:0 6px 3px}.instagram-channel-card .youtube-channel-content .youtube-channel-kicker{font-size:11px;margin:3px 0 10px}
+.instagram-channel-card .youtube-channel-content>p:not(.youtube-channel-kicker){display:none}.instagram-channel-card .youtube-subscribe{font-size:13px;min-height:37px;padding:7px 12px}.instagram-channel-card .youtube-visit{font-size:10px;margin-top:8px}
+@media(max-width:640px){.youtube-channel-card.instagram-channel-card{padding:26px 27px 25px;min-height:0}}
+
+/* Keep the complete cover and all content inside its embroidered border. */
+.theme-grid{align-items:stretch;gap:28px;min-width:0}
+.theme-card{margin:0;padding:19px;min-width:0;max-width:100%;box-sizing:border-box;background:#fffaf7;border-radius:20px}
+.theme-card:after{inset:0;border-width:19px;border-image-width:19px;border-image-outset:0;clip-path:inset(0 round 20px)}
+.theme-card-link{display:flex;flex-direction:column;min-width:0;max-width:100%;height:100%;border-radius:10px;overflow:hidden}
+.theme-card .theme-cover{flex-shrink:0;border-radius:10px 10px 0 0;aspect-ratio:16/9;background:#fffaf7}
+.theme-card .theme-cover img{object-fit:contain;width:100%;height:100%}
+.theme-card .theme-card-body{padding:17px 15px 15px;min-width:0;flex:1;display:flex;flex-direction:column;border-radius:0 0 10px 10px}
+.theme-card h2{font-size:clamp(19px,1.7vw,25px);overflow-wrap:anywhere;line-height:1.3}
+.theme-card p{overflow-wrap:anywhere}
+.theme-card-meta{flex-wrap:wrap;margin-top:auto;row-gap:6px;min-width:0}
+.theme-card-meta span{max-width:100%;overflow-wrap:anywhere}
+.theme-card .theme-badge{top:9px;right:9px;font-size:10px;padding:3px 10px}
+/* Reserve an inner safety margin for the social panel's lace and fabric art. */
+.youtube-sidebar,.youtube-channel-card,.youtube-channel-content{min-width:0;box-sizing:border-box}
+.youtube-channel-card{padding-left:38px;padding-right:38px}
+.youtube-channel-card>h2,.youtube-channel-content,.youtube-channel-banner{max-width:100%}
+.youtube-channel-content{padding-inline:0}
+.youtube-channel-content h3{margin-inline:0;max-width:100%;font-size:23px;overflow-wrap:anywhere}
+.youtube-channel-content .youtube-subscribe{max-width:100%;width:100%;box-sizing:border-box}
+.youtube-channel-content .youtube-subscribe:before{inset:-2px 0}
+.youtube-channel-content p,.youtube-channel-content a{overflow-wrap:anywhere}
+.youtube-channel-card.instagram-channel-card{padding-inline:38px;aspect-ratio:auto;min-height:330px}
+@media(min-width:901px) and (max-width:1200px){.catalog-page .theme-grid{grid-template-columns:1fr;max-width:none}}
+@media(max-width:640px){.theme-card{margin:0;padding:17px}.theme-card:after{inset:0;border-width:17px;border-image-width:17px}.theme-card .theme-card-body{padding:16px 13px}.theme-card h2{font-size:23px}.youtube-channel-card,.youtube-channel-card.instagram-channel-card{padding-inline:35px}.theme-grid{gap:26px}}
